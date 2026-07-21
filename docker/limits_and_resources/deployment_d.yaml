@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-d
+spec:
+  selector:
+    matchLabels:
+      app: deployment-d
+  template:
+    metadata:
+      labels:
+        app: deployment-d
+    spec:
+      containers:
+        - name: deployment-d
+          image: nginx
+          resources:
+            requests:
+              cpu: "250m"
+            limits:
+              cpu: "10000m"

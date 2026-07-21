@@ -1,0 +1,39 @@
+services:
+  service-a:
+    build:
+      context: ./app2-tax-calculator/node/service-a
+      dockerfile: Dockerfile
+    ports:
+      - "3100:3000"
+    depends_on:
+      - service-b
+    environment:
+      - TAX_SERVICE_URL=http://service-b:4000
+      - FRONTEND_URL=http://localhost:5173
+    networks:
+      - tax_network
+
+  service-b:
+    build:
+      context: ./app2-tax-calculator/node/service-b
+      dockerfile: Dockerfile
+    ports:
+      - "3200:4000"
+    networks:
+      - tax_network
+
+  frontend:
+    build:
+      context: ./app2-tax-calculator/tax-calculator-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+
+    depends_on:
+      - service-a
+    networks:
+      - tax_network
+
+networks:
+  tax_network:
+    driver: bridge

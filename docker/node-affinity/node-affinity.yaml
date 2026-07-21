@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: affinity-required
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: affinity-required
+
+  template:
+      metadata:
+        labels:
+          app: affinity-required
+      spec:
+        affinity:
+          nodeAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+              nodeSelectorTerms:
+                - matchExpressions:
+                    - key: hardware
+                      operator: In
+                      values:
+                        - gpu
+        containers:
+          - name: nginx
+            image: nginx

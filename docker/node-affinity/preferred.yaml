@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: affinity-preferred
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: affinity-preferred
+
+  template:
+    metadata:
+      labels:
+        app: affinity-preferred
+
+    spec:
+
+      affinity:
+        nodeAffinity:
+
+          preferredDuringSchedulingIgnoredDuringExecution:
+
+          - weight: 100
+
+            preference:
+              matchExpressions:
+
+              - key: hardware
+
+                operator: In
+
+                values:
+                - gpu
+
+      containers:
+      - name: nginx
+        image: nginx
