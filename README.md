@@ -1,81 +1,161 @@
-This is the Official repository of **⭐ Full Stack DevOps for Software Developers (AWS, Azure, GCP)** on Udemy
+# 🚀 DevOps Journey
 
-# The Ultimate Java and Spring Boot Mastery Roadmap
+Welcome to my **DevOps Journey** repository! This repository documents
+my hands-on learning and practical implementations while studying modern
+DevOps tools, cloud platforms, containerization, orchestration, and
+CI/CD practices.
 
-Welcome to your one-stop-shop for mastering Java and Spring Boot! This repository offers a comprehensive learning experience with high-quality resources and community support. Dive into over 150+ hours of premium content, with everything you need to excel at Java and Spring Boot development.
+The goal of this repository is to build a strong DevOps portfolio by
+completing real-world labs, projects, and exercises using
+industry-standard technologies.
 
-## 🎓 Learning Roadmap
+---
 
-Most of the courses below are available in **Udemy For Business**, so if you have subscription - you can get FREE access.
-Here’s a structured path to enhance your skills with detailed courses available:
+## 📖 About This Repository
 
-1. **[Spring Boot By Building Complex Projects Step by Step](https://link.embarkx.com/spring-boot) (90+ Hours of Content)**
-2. **[Master Spring Boot Microservices by Building eCommerce Project](https://link.embarkx.com/microservices) (55+ Hours of Content)**
-3. **[Full Stack AI DevOps for Software Developers (AWS, Azure, GCP)](https://link.embarkx.com/devops) (20+ Hours of Content)**
-4. **[Learn Java with 60+ Hours of Content](http://link.embarkx.com/java) (60+ Hours of Content)**
-5. **[Master Spring Security with React JS + OAuth2](https://link.embarkx.com/spring-security) (34+ Hours of Content)**
-6. **[Master IntelliJ IDEA](http://link.embarkx.com/intellij) (3+ Hours of Content)**
+This repository contains my practice work, notes, configurations, and
+projects completed during my DevOps learning journey. It serves as both
+a personal knowledge base and a showcase of the skills I have developed.
 
+The repository includes practical implementations related to:
 
-## 🌟 With All Our Courses You Gain Access To
+- Docker & Docker Compose
+- Kubernetes
+- AWS Cloud Services
+- Azure Fundamentals
+- Google Cloud Platform (GCP)
+- Linux Administration
+- Git & GitHub
+- CI/CD Pipelines
+- Microservices
+- Infrastructure as Code (IaC)
+- Container Networking
+- Resource Management
+- Horizontal Pod Autoscaling (HPA)
+- Node Affinity & Scheduling
+- Cloud Deployment Projects
 
-- 📝 **Notes:** Detailed and downloadable notes to accompany each lesson.
-- 💻 **Source Code:** Full access to the source code used in the tutorials.
-- 🤔 **Doubt Solving:** Responsive instructor and community support.
-- 🎥 **High-Quality HD Videos:** Easy to understand, high-definition video tutorials.
-- 🔄 **Free Lifetime Updates:** Continuous updates to course content at no extra cost.
+---
 
-## 📚 Why Choose This Mastery Series?
+## 🛠 Technologies Used
 
-With this series, you're not just learning; you're preparing to dominate the field of Java and Spring Boot development. Our structured learning path ensures that you build your skills progressively, with each course designed to build on the knowledge gained from the previous one.
+- Docker
+- Docker Compose
+- Kubernetes
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Cloud Platform (GCP)
+- Linux
+- Git & GitHub
+- Jenkins
+- Python
+- Node.js
+- Java
+- Spring Boot
+- YAML
+- Bash
 
-### Join Us Now!
+---
 
-Start your journey today to become a master at Java and Spring Boot. Our community and expert instructors are here to support your learning every step of the way. **Enroll and start building your future, today!**
+## 📂 Repository Structure
 
+```text
+docker/
+├── app1-hello/
+├── app2-tax-calculator/
+├── aws/
+├── HPA_Labs/
+├── k8s/
+├── limits_and_resources/
+├── microservices/
+├── node-affinity/
+└── docker-compose.yml
+```
 
+> Additional directories and projects will be added as I continue
+> learning.
 
+---
 
+## 🎯 Learning Objectives
 
-# Usage Policy for Course Materials
+Through this repository, I aim to:
 
-## Instructor Information
+- Build and manage Docker containers.
+- Create multi-container applications using Docker Compose.
+- Deploy applications on Kubernetes clusters.
+- Work with AWS cloud services.
+- Learn Azure and Google Cloud fundamentals.
+- Configure scalable and highly available applications.
+- Implement CI/CD pipelines.
+- Practice Infrastructure as Code concepts.
+- Understand monitoring, scaling, and orchestration.
 
-**Instructor:** Faisal Memon  
-**Company:** [EmbarkX.com](http://www.embarkx.com)
+---
 
-## Policy Overview
+## 📚 Learning Resources
 
-This document outlines the guidelines and restrictions concerning the use of course materials provided by EmbarkX, including but not limited to PDF presentations, code samples, and video tutorials.
+This repository is based on practical exercises completed while learning
+DevOps concepts from various educational resources, official
+documentation, and hands-on practice.
 
-### 1. Personal Use Only
+---
 
-The materials provided in this course are intended for **your personal use only**. They are to be used solely for the purpose of learning and completing this course.
+## 🚀 Projects Included
 
-### 2. No Unauthorized Sharing or Distribution
+- Docker Fundamentals
+- Docker Compose Applications
+- Kubernetes Deployments
+- Kubernetes Services
+- ConfigMaps & Secrets
+- Horizontal Pod Autoscaler (HPA)
+- Resource Limits & Requests
+- Node Affinity
+- AWS Deployment Labs
+- Microservices Deployment
+- Cloud-Native Applications
 
-You are **not permitted** to share, distribute, or publicly post any course materials on any websites, social media platforms, or other public forums without prior written consent from the instructor.
+More projects will be added as my DevOps journey progresses.
 
-### 3. Intellectual Property
+---
 
-All course materials are protected by copyright laws and are the intellectual property of Faisal Memon and EmbarkX. Unauthorized use, reproduction, or distribution of these materials is **strictly prohibited**.
+## 📈 Progress
 
-### 4. Reporting Violations
+- ✅ Docker Basics
+- ✅ Docker Compose
+- ✅ AWS Basics
+- ✅ Kubernetes Fundamentals
+- ✅ Kubernetes Advanced Topics
+- 🔄 CI/CD Pipelines
+- 🔄 Monitoring & Logging
+- 🔄 Infrastructure as Code
 
-If you become aware of any unauthorized sharing or distribution of course materials, please report it immediately to [embarkxofficial@gmail.com](mailto:embarkxofficial@gmail.com).
+---
 
-### 5. Legal Action
+## 🤝 Contributions
 
-We reserve the right to take legal action against individuals or entities found to be violating this usage policy.
+This repository is primarily intended for personal learning and
+portfolio purposes. Suggestions, improvements, and feedback are always
+welcome.
 
-## Thank You
+---
 
-Thank you for respecting these guidelines and helping us maintain the integrity of our course materials.
+## 📄 License
 
-## Contact Information
+This repository is shared for educational purposes. Please do not copy
+paid course materials or copyrighted content. All original work in this
+repository is my own unless otherwise stated.
 
-- **Email:** [embarkxofficial@gmail.com](mailto:embarkxofficial@gmail.com)
-- **Website:** [www.embarkx.com](http://www.embarkx.com)
+---
 
+## 👨‍💻 Author
 
+**Usman Ghani**
 
+GitHub: https://github.com/usman-ghani190
+
+---
+
+⭐ If you find this repository helpful or would like to follow my DevOps
+learning journey, feel free to star the repository and check back for
+future updates.
