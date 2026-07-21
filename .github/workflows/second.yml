@@ -1,12 +1,15 @@
 name: Second CI
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: second CI
         run: echo "This is the second CI workflow"
+
+      - name: ENV_VALUE
+        run: echo "ENV_VALUE is ${{ secrets.ENV_VALUE }}"
+
+      - name: DB_PASSWORD
+        run: echo "DB_PASSWORD is ${{ secrets.DB_PASSWORD }}"
