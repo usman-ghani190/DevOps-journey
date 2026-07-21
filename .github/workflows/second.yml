@@ -13,3 +13,9 @@ jobs:
 
       - name: DB_PASSWORD
         run: echo "DB_PASSWORD is ${{ secrets.DB_PASSWORD }}"
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TEstJob
+        run: echo "This is the test job in the second CI workflow"
