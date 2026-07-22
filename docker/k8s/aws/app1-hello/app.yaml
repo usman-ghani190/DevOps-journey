@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app1-hello
-          image: embarkx/hello-python:latest
+          image: ghani5511/hello-spring:latest
           env:
             - name: ENV_VALUE
               value: "Hello from aws deployment"
