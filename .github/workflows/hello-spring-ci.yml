@@ -2,6 +2,8 @@ name: Hello Spring Boot App to Docker
 
 on:
   push:
+    paths:
+      - "docker/app1-hello/springboot/hello-spring/**"
 
 jobs:
   build-test:
@@ -57,4 +59,3 @@ jobs:
           context: docker/app1-hello/springboot/hello-spring
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/hello-spring:latest
-          
