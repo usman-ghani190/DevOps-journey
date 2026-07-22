@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "docker/app1-hello/springboot/hello-spring/**"
+  workflow_dispatch:
 
 jobs:
   build-test:
