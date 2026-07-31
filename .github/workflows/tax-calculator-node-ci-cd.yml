@@ -31,13 +31,20 @@ jobs:
     strategy:
       matrix:
         service:
-          - {name: service-a, docker_name: "tax-service-a", path: docker/aws/app2-tax-calculator/node/service-a}
-          - {name: service-b, docker_name: "tax-service-b", path: docker/aws/app2-tax-calculator/node/service-b}
+          - {
+              name: service-a,
+              docker_name: "tax-service-a",
+              path: docker/app2-tax-calculator/node/service-a,
+            }
+          - {
+              name: service-b,
+              docker_name: "tax-service-b",
+              path: docker/app2-tax-calculator/node/service-b,
+            }
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
 
       - name: Login to DockerHub
         uses: docker/login-action@v3
