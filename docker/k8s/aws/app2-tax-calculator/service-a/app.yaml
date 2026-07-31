@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-a
-          image: ghani5511/tax-service-a:latest
+          image: ghani5511/tax-service-a:python-latest
           ports:
             - containerPort: 3000
 ---
