@@ -18,11 +18,11 @@ jobs:
           node-version: "24"
 
       - name: Install dependencies
-        working-directory: docker/aws/app2-tax-calculator/node/${{ matrix.service }}
+        working-directory: docker/app2-tax-calculator/node/${{ matrix.service }}
         run: npm ci
 
       - name: Run tests (if any)
-        working-directory: docker/aws/app2-tax-calculator/node/${{ matrix.service }}
+        working-directory: docker/app2-tax-calculator/node/${{ matrix.service }}
         run: npm test --if-present
 
   docker-build-push:
